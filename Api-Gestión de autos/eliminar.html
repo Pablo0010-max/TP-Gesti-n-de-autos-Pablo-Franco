@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/consulta.css">
+    <title>Eliminar</title>
+    
+</head>
+<body>
+    <header>
+        <h1>SISTEMA DE AUTOMÓVILES</h1>
+    </header>
+    <nav>
+        <a href="consulta.html">Consultar</a>
+        <a href="alta.html">Agregar</a>
+        <a href="modificar.html">Modificar</a>
+        <a href="eliminar.html" class="activo">Eliminar</a>
+    </nav>
+
+    <form id="formBuscarId">
+        <label for="id">Id:</label>
+        <input type="text" id="id" min="1" placeholder="Id">
+        <br>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <table id="tablaAutos"  border="1">
+        <thead>
+            <tr><th>ID</th><th>Marca</th><th>Precio</th><th>Color</th></tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+
+    <script src="js/eliminar.js"></script>
+
+</body>
+</html>
